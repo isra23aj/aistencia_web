@@ -1,0 +1,66 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background:#334668;
+}
+
+h1{
+    text-align: center;
+    padding: 15px;
+    font-size: 50px;
+    color: #C9A881;
+}
+
+#fecha{
+    text-align: center;
+    color:#C9A881 ;
+    font-weight: normal;
+    font-size: 40px;
+}
+
+.container{
+    width: 650px;
+    background: #7C9DA1;
+    padding: 30px;
+    margin: auto;
+    margin-top: 80px;
+    border-radius: 10px;
+}
+
+.acceso{
+    color: #1900ff;
+}
+
+.dni{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+input{
+    width: 100%;
+    padding: 25px;
+    outline: none;
+    border-radius: 5px;
+}
+
+.botones{
+    display:flex;
+    margin-top: 20px;
+}
+
+.entrada{
+    background:green;
+    width: 100%;
+    padding: 25px 35px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+
+}

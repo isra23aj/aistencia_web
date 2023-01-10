@@ -1,0 +1,83 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background: rgb(217,226,236);
+}
+
+h1{
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+    color: rgb(56,56,56);
+}
+
+#fecha{
+    text-align: center;
+    color:rgb(128, 128, 128) ;
+    font-weight: normal;
+    font-size: 34px;
+}
+
+.container{
+    width: 650px;
+    background: rgb(117, 0, 0);
+    padding: 20px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 50px;
+}
+/*.contenedor{
+    width: 700px;
+    background:rgb(117, 0, 0);
+    padding: 20px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+}*/
+
+.acceso{
+    color: blue;
+}
+
+.dni{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+input{
+    width: 100%;
+    padding: 30px;
+    outline: none;
+}
+
+.botones{
+    display:flex;
+    margin-top: 20px;
+}
+
+.entrada{
+    background:green;
+    width: 100%;
+    padding: 25px 35px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.salida{
+    background:red;
+    width: 100%;
+    padding: 25px 35px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+
+}
